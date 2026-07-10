@@ -33,6 +33,8 @@ Through extensive A/B listening validation and polynomial regression analysis ($
 
 ## 🎧 The Calibration Ritual: "The Sandwich"
 
+![Decibel X](images/DecibelX.png)
+
 The provided 0.3661543 optimal target is calibrated to **85 phon** (which correlates to 85 dBA, the NIOSH standard for safe 8-hour listening). 
 
 Because the sensitivity of every headphone varies, you should calibrate your hardware so your physical listening volume matches the math. 
