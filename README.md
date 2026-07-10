@@ -35,17 +35,17 @@ Through extensive A/B listening validation and polynomial regression analysis ($
 
 ![Decibel X](images/DecibelX.png)
 
-The provided 0.3661543 optimal target is calibrated to **85 phon** (which correlates to 85 dBA, the NIOSH standard for safe 8-hour listening). 
+The provided **0.3661543** optimal target is calibrated to **85 phon** (which correlates to 85 dBA, the NIOSH standard for safe 8-hour listening). 
 
-Because the sensitivity of every headphone varies, you should calibrate your hardware so your physical listening volume matches the math. 
+Because the sensitivity of every headphone varies, you must calibrate your hardware so your physical listening volume matches the math. 
 
 **The Workflow:**
 1. **Reference Signal:** Play a **Pink Noise** generator through your system.
 2. **The Measurement:** Place a measurement device (e.g., an iPhone running *Decibel X*) sandwiched snugly between your earcups to mimic the seal against your head.
-3. **The Calibration:** Adjust your amplifier/interface volume until the meter reads a steady **85 dBA**.
+3. **The Calibration:** Pan your pink noise to **one channel only** (Left or Right). Adjust your amplifier/interface volume until the meter reads exactly **85 dBA**. 
 4. **The Baseline:** Your setup is now calibrated to the 85-phon reference. At this volume level, the EQ curve will perform exactly as engineered to prevent masking.
 
-> **Note:** You should repeat this quick calibration step whenever you switch to a different pair of headphones with a different impedance/sensitivity.
+> **Note:** Calibrating to one side ensures you are hitting the 85-phon target per driver, preventing any math errors caused by signal summation. If your headphone channel-matching is accurate, both sides will now sit perfectly at 85 dBA. Repeat this quick step whenever you switch to a different pair of headphones.
 
 ## 🎛️ The Included Curves
 
