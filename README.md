@@ -66,6 +66,11 @@ All provided CSV files are **0 dB normalized at 1 kHz** and calculated for the *
 > 
 > If you prefer to listen at a quieter or louder volume, **do not just pick a different CSV file from the table.** Instead, use the included `gentarget.py` tool to generate a mathematically accurate curve tailored to your exact listening level.
 
+> 💡 **The Ultimate Sanity Check: Trust Your Ears**
+> While the "sandwich" method gets you into the exact mathematical ballpark, it cannot account for your unique ear canal anatomy or personal hearing response (HRTF). ISO 226:2023 is a statistical average of human hearing, not a biological absolute for *your* ears. 
+> 
+> Once you complete the physical calibration, play a familiar, well-engineered track. If the spectrum doesn't sound perceptually flat to you, **nudge the volume up or down slightly until the midrange balances out.** Your brain is the final audio analyzer—adjust the volume to what sounds flattest to *you*, regardless of what the phone screen says.
+
 ## 🛠️ The Toolkit
 
 This repository includes custom Python tools to generate dynamic targets and perform accurate psychoacoustic A/B testing.
