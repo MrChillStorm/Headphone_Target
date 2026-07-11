@@ -133,6 +133,16 @@ pip install numpy
 
 ```
 
+### Headphone Target vs. Harman Target Deviation
+
+I initially wondered why the Harman target sounds so similar to this Headphone Target, albeit with slight bass bloom and treble hiss. To understand the exact difference, I plotted the deviation of the Harman target against my own, alongside a raw ISO 226 contour. 
+
+In the plot below, the Headphone Target is flattened into a straight baseline, and the Harman curve is plotted as the deviation from that line. The result is a smoking gun: while the bass naturally diverges (which is expected, given that ISO 226 is a free-field measurement lacking the acoustic pressure-chamber seal of headphones), the Harman deviation almost perfectly traces the shape of the ISO 226 curve everywhere above 1 kHz.
+
+It seems the Harman target is essentially a "double-decker bus": a target built on top of another target. During their research, the listening panels organically gravitated toward the curve that sounds most natural to the human ear, effectively stacking an equal-loudness contour directly on top of whatever acoustic baseline they started with.
+
+![Harman Deviation](images/Harman_deviation.png)
+
 ### License
 
 MIT
