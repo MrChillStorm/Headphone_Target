@@ -35,17 +35,16 @@ Through extensive A/B listening validation and polynomial regression analysis ($
 
 ![Decibel X](images/DecibelX.png)
 
-The provided **0.3661543** optimal target is calibrated to **85 phon** (which correlates to 85 dBA, the NIOSH standard for safe 8-hour listening). 
-
-Because the sensitivity of every headphone varies, you must calibrate your hardware so your physical listening volume matches the math. 
+The **0.3661543** optimal target is calibrated to an **85-phon** reference level—the "unity" point for the ISO 226:2023 contours. Because headphone sensitivity varies, you must calibrate your playback system to match this 85-phon baseline to ensure the EQ curve behaves exactly as engineered.
 
 **The Workflow:**
 1. **Reference Signal:** Play a **Pink Noise** generator through your system.
-2. **The Measurement:** Place a measurement device (e.g., an iPhone running *Decibel X*) sandwiched snugly between your earcups to mimic the seal against your head.
-3. **The Calibration:** Pan your pink noise to **one channel only** (Left or Right). Adjust your amplifier/interface volume until the meter reads exactly **85 dBA**. 
-4. **The Baseline:** Your setup is now calibrated to the 85-phon reference. At this volume level, the EQ curve will perform exactly as engineered to prevent masking.
+2. **The Measurement:** Place a measurement device (e.g., an iPhone running Decibel X) sandwiched snugly between your earcups to mimic the seal against your head.
+3. **The Calibration Settings:** Set your SPL app to C-Weighting (dBC) and Slow response time.
+4. **The Calibration:** Pan your pink noise to one channel only (Left or Right). Adjust your amplifier/interface volume until the average reading sits exactly at 85 dBC.
+5. **The Baseline:** Your setup is now calibrated to the 85-phon reference. At this volume, the EQ curve will prevent auditory masking and preserve midrange clarity.
 
-> **Note:** Calibrating to one side ensures you are hitting the 85-phon target per driver, preventing any math errors caused by signal summation. If your headphone channel-matching is accurate, both sides will now sit perfectly at 85 dBA. Repeat this quick step whenever you switch to a different pair of headphones.
+> **Note:** Calibrating to one side ensures you are hitting the 85-phon target per driver, preventing math errors caused by signal summation. If your headphone channel-matching is accurate, both sides will now sit perfectly at 85 dBC. Repeat this step whenever you switch headphones.
 
 ## 🎛️ The Included Curves
 
@@ -130,7 +129,7 @@ python volume_match.py source_eq.txt target_eq.txt -w Z
 1. Download **`headphone_target_0.3661543.csv`**.
 2. Load the file as a custom target in Acoustiq or AutoEQ, alongside your headphone's raw measurement to generate your EQ filters.
 3. Import those generated filters into your preferred DSP (SoundSource, Equalizer APO, Roon, etc.).
-4. Calibrate your amplifier to 85 dBA using pink noise.
+4. Calibrate your amplifier to 85 dBC using pink noise.
 
 ### Requirements (For Python Tools Only)
 
