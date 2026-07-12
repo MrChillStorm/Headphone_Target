@@ -15,7 +15,6 @@ Most headphone targets (such as Harman) are static averages of subjective listen
     * [volume_match.py](#2-volume_matchpy--psychoacoustic-loudness-matcher)
 5. [Quick Start](#-quick-start)
 6. [Harman Target Deviation](#headphone-target-vs-harman-target-deviation)
-7. [License](#license)
 
 ## 🧠 The Theory: Under the Hood
 
