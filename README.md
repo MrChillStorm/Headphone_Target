@@ -143,6 +143,8 @@ It seems the Harman target is essentially a "double-decker bus": a target built 
 
 ![Harman Deviation](images/Harman_deviation.png)
 
+🔊 By the way, if you fancy your speakers sounding like the Harman target, just EQ them against the `Harman_deviation.csv` included in the targets folder. 🔊
+
 ### License
 
 MIT
