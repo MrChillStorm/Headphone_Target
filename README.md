@@ -139,7 +139,7 @@ I initially wondered why the Harman target sounds so similar to this Headphone T
 
 In the plot below, the Headphone Target is flattened into a straight baseline, and the Harman curve is plotted as the deviation from that line. The result is a smoking gun: while the bass naturally diverges (which is expected, given that ISO 226 is a free-field measurement lacking the acoustic pressure-chamber seal of headphones), the Harman deviation almost perfectly traces the shape of the ISO 226 curve everywhere above 1 kHz.
 
-It seems the Harman target is essentially a "double-decker bus": a target built on top of another target. During their research, the listening panels organically gravitated toward the curve that sounds most natural to the human ear, effectively stacking an equal-loudness contour directly on top of whatever acoustic baseline they started with.
+It seems the Harman target is essentially a "double-decker bus": a target built on top of another target. Given the constraints of the testing environment, the listening panels organically gravitated toward the curve that felt most natural to the human ear, effectively stacking an equal-loudness contour directly on top of whatever acoustic baseline they started with.
 
 ![Harman Deviation](images/Harman_deviation.png)
 
