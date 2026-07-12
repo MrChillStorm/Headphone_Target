@@ -7,13 +7,13 @@
 Most headphone targets (such as Harman) are static averages of subjective listener preferences. This project takes a physiological approach. By deriving a target strictly from the **ISO 226:2023 equal-loudness contours**, this framework delivers a perceptually flat, energy-balanced response that minimizes auditory masking and preserves midrange clarity at natural listening volumes.
 
 ## Table of Contents
-1. [The Theory](#the-theory-under-the-hood)
-2. [The Calibration Ritual](#the-calibration-ritual-the-sandwich)
-3. [The Included Curves](#the-included-curves)
-4. [The Toolkit](#the-toolkit)
+1. [The Theory](#-the-theory-under-the-hood)
+2. [The Calibration Ritual](#-the-calibration-ritual-the-sandwich)
+3. [The Included Curves](#%EF%B8%8F-the-included-curves)
+4. [The Toolkit](#%EF%B8%8F-the-toolkit)
     * [gentarget.py](#1-gentargetpy--custom-iso-target-generator)
     * [volume_match.py](#2-volume_matchpy--psychoacoustic-loudness-matcher)
-5. [Quick Start](#quick-start)
+5. [Quick Start](#-quick-start)
 6. [Harman Target Deviation](#headphone-target-vs-harman-target-deviation)
 7. [License](#license)
 
