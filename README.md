@@ -15,6 +15,7 @@ Most headphone targets (such as Harman) are static averages of subjective listen
     * [volume_match.py](#2-volume_matchpy--psychoacoustic-loudness-matcher)
 5. [Quick Start](#-quick-start)
 6. [Harman Target Deviation](#headphone-target-vs-harman-target-deviation)
+7. [What I learned](#what-i-learned)
 
 ## 🧠 The Theory: Under the Hood
 
@@ -161,6 +162,10 @@ It seems the Harman target is essentially a "double-decker bus": a target built 
 ![Harman Deviation](images/Harman_deviation.png)
 
 🔊 By the way, if you fancy your speakers sounding like the Harman target, just EQ them against the `Harman_deviation.csv` included in the targets folder. 🔊
+
+### What I learned
+
+My main takeaway from this project is that if I were an audio researcher, I wouldn't let the auditory system adjust existing auditory-related curves, because the listener's own biological baseline just gets baked in. Instead, I would bypass that feedback loop entirely and put resources into extending ISO 226 directly to headphones and IEMs.
 
 ### License
 
