@@ -167,6 +167,8 @@ It seems the Harman target is essentially a "double-decker bus": a target built 
 
 My main takeaway from this project is that if I were an audio researcher, I wouldn't let the auditory system adjust existing auditory-related curves, because the listener's own biological baseline just gets baked in. Instead, I would bypass that feedback loop entirely and put resources into extending ISO 226 directly to headphones and IEMs.
 
+**Analogy**: If you measure a signal with 100 uncalibrated microphones, the average result will include the frequency response of the microphones themselves.
+
 ### License
 
 MIT
