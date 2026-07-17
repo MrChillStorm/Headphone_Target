@@ -169,6 +169,8 @@ My main takeaway from this project is that if I were an audio researcher, I woul
 
 **Analogy**: If you measure a signal with 100 uncalibrated microphones, the average result will include the frequency response of the microphones themselves.
 
+The Harman deviation plot above illustrates this directly. When the Harman target is plotted as a deviation from this ISO 226-derived baseline, the residual above 1 kHz traces the shape of the equal-loudness contour almost exactly, revealing that what the listening panels converged on was not preference, but their own shared auditory response. The data already contains the optimal target. It just hasn't been read that way yet.
+
 ### License
 
 MIT
