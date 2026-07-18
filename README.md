@@ -14,8 +14,9 @@ Most headphone targets (such as Harman) are static averages of subjective listen
     * [gentarget.py](#1-gentargetpy--custom-iso-target-generator)
     * [volume_match.py](#2-volume_matchpy--psychoacoustic-loudness-matcher)
 5. [Quick Start](#-quick-start)
-6. [Harman Target Deviation](#headphone-target-vs-harman-target-deviation)
-7. [What I learned](#what-i-learned)
+6. [Measurement Platform Compatibility](#measurement-platform-compatibility)
+7. [Harman Target Deviation](#headphone-target-vs-harman-target-deviation)
+8. [What I learned](#what-i-learned)
 
 ## 🧠 The Theory: Under the Hood
 
@@ -150,6 +151,12 @@ If you wish to use the Python scripts to generate custom phon levels, install th
 pip install numpy
 
 ```
+
+### Measurement Platform Compatibility
+
+The target was derived purely from ISO 226:2023 and first principles. It was subsequently found to be compatible with GRAS measurement infrastructure, which was independently engineered to approximate average human ear canal acoustics. Users measuring on GRAS rigs can therefore expect a consistent measurement chain between their hardware and this target.
+
+Users on the B&K 5128 platform should be aware that its differing ear canal geometry may require accounting for platform-specific deviations, particularly at higher frequencies.
 
 ### Headphone Target vs. Harman Target Deviation
 
