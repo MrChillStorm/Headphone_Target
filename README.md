@@ -178,6 +178,10 @@ My main takeaway from this project is that if I were an audio researcher, I woul
 
 The Harman deviation plot above illustrates this directly. When the Harman target is plotted as a deviation from this ISO 226-derived baseline, the residual above 200 Hz traces the shape of the equal-loudness contour almost exactly, revealing that what the listening panels converged on was not preference, but their own shared auditory response. The data already contains the optimal target. It just hasn't been read that way yet.
 
+[ResponseRank](https://github.com/MrChillStorm/ResponseRank) data shows that Audeze is the only manufacturer **consistently** building headphones that respect human hearing, within the limits of planar magnetic physics.
+
+![ResponseRank](images/Top_5_vs_Target_Z-weighted_filter_audeze.png)
+
 ### License
 
 MIT
