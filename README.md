@@ -182,6 +182,10 @@ The Harman deviation plot above illustrates this directly. When the Harman targe
 
 ![ResponseRank](images/Top_5_vs_Target_Z-weighted_filter_audeze.png)
 
+While the market as a whole is converging towards a measurement error.
+
+![Market consensus](images/Consensus.png)
+
 ### License
 
 MIT
