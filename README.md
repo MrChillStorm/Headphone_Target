@@ -15,8 +15,9 @@ Most headphone targets (such as Harman) are static averages of subjective listen
     * [volume_match.py](#2-volume_matchpy--psychoacoustic-loudness-matcher)
 5. [Quick Start](#-quick-start)
 6. [Measurement Platform Compatibility](#measurement-platform-compatibility)
-7. [Harman Target Deviation](#headphone-target-vs-harman-target-deviation)
-8. [What I learned](#what-i-learned)
+7. [IEM Compatibility](#iem-compatibility)
+8. [Harman Target Deviation](#headphone-target-vs-harman-target-deviation)
+9. [What I learned](#what-i-learned)
 
 ## 🧠 The Theory: Under the Hood
 
@@ -157,6 +158,10 @@ pip install numpy
 The target was derived purely from ISO 226:2023 and first principles. It was subsequently found to be compatible with GRAS measurement infrastructure, which was independently engineered to approximate average human ear canal acoustics. Users measuring on GRAS rigs can therefore expect a consistent measurement chain between their hardware and this target.
 
 Users on the B&K 5128 platform should be aware that its differing ear canal geometry may require accounting for platform-specific deviations, particularly at higher frequencies.
+
+### IEM Compatibility
+
+The target has been validated on IEMs using impulse testing (click train) with the 7Hz Zero2. The target scales correctly across transducer types, which is consistent with the ISO 226 foundation — the biology doesn't change based on how the sound is delivered.
 
 ### Headphone Target vs. Harman Target Deviation
 
