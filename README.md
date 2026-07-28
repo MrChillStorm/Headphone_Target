@@ -163,7 +163,7 @@ Users on the B&K 5128 platform should be aware that its differing ear canal geom
 
 ![The physics don't change](images/batman_iem_meme.png)
 
-The target has been validated on IEMs using impulse testing (click train) with the 7Hz Zero2. The target scales correctly across transducer types, which is consistent with the ISO 226 foundation — the biology doesn't change based on how the sound is delivered.
+The target has been validated on IEMs using impulse testing (click train) with the 7Hz Zero:2. The target scales correctly across transducer types, which is consistent with the ISO 226 foundation — the biology doesn't change based on how the sound is delivered.
 
 ### Headphone Target vs. Harman Target Deviation
 
