@@ -179,11 +179,25 @@ It seems the Harman target is essentially a "double-decker bus": a target built 
 
 ### What I learned
 
-My main takeaway from this project is that if I were an audio researcher, I wouldn't let the auditory system adjust existing auditory-related curves, because the listener's own biological baseline just gets baked in. Instead, I would bypass that feedback loop entirely and put resources into extending ISO 226 directly to headphones and IEMs.
+My main takeaway from this project is that if I were an audio researcher, 
+I wouldn't let the auditory system adjust existing auditory-related curves, 
+because the listener's own biological baseline just gets baked in. Instead, 
+I would bypass that feedback loop entirely and put resources into extending 
+ISO 226 directly to headphones and IEMs.
 
-**Analogy**: If you measure a signal with 250 uncalibrated microphones, the average result will include the frequency response of the microphones themselves.
+Averaging by definition eliminates individual variance. With enough listeners, 
+the individual ear differences cancel out and what remains is what every human 
+ear has in common. In this case, that common thing is auditory biology.
 
-The Harman deviation plot above illustrates this directly. When the Harman target is plotted as a deviation from this ISO 226-derived baseline, the residual above 200 Hz traces the shape of the equal-loudness contour almost exactly, revealing that what the listening panels converged on was not preference, but their own shared auditory response. The data already contains the optimal target. It just hasn't been read that way yet.
+**Analogy**: If you measure a signal with 250 uncalibrated microphones, the 
+average result will include the frequency response of the microphones themselves.
+
+The Harman deviation plot above illustrates this directly. When the Harman 
+target is plotted as a deviation from this ISO 226-derived baseline, the 
+residual above 200 Hz traces the shape of the equal-loudness contour almost 
+exactly. The listening panels did not converge on a preference. They converged 
+on their own auditory system. The data already contains the optimal target. 
+It just hasn't been read that way yet.
 
 [ResponseRank](https://github.com/MrChillStorm/ResponseRank) data shows that Audeze is the only manufacturer **consistently** building headphones that respect human hearing, within the limits of planar magnetic physics.
 
