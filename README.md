@@ -163,7 +163,26 @@ Users on the B&K 5128 platform should be aware that its differing ear canal geom
 
 ![The physics don't change](images/batman_iem_meme.png)
 
-The target has been validated on IEMs using impulse testing (click train) with the 7Hz Zero:2. The target scales correctly across transducer types, which is consistent with the ISO 226 foundation — the biology doesn't change based on how the sound is delivered.
+The target has been validated on IEMs using impulse testing (click train) with the 7Hz Zero:2. The target scales correctly across transducer types, which is consistent with the ISO 226 foundation — the biology doesn't change based on how the sound is delivered. 
+
+This precise scaling is demonstrated below in the EQ optimization for the 7Hz Zero:2. Even on a budget IEM, the parametric correction accurately tracks the ISO-derived target curve across the entire frequency spectrum:
+
+![7Hz Zero:2 EQ Fit vs ISO Target](images/zero2.png)
+
+**7Hz Zero:2 to ISO 226:2023 EQ Profile**
+```text
+Preamp: -7.2 dB
+Filter 1: ON PK Fc 31.82 Hz Gain -5.27 dB Q 0.423  # STATIC (pinned)
+Filter 2: ON PK Fc 89.79 Hz Gain -9.39 dB Q 0.272  # STATIC (pinned)
+Filter 3: ON PK Fc 935.12 Hz Gain 7.40 dB Q 0.960
+Filter 4: ON PK Fc 991.83 Hz Gain -6.31 dB Q 0.625  # STATIC (pinned)
+Filter 5: ON PK Fc 999.09 Hz Gain 1.89 dB Q 5.000
+Filter 6: ON PK Fc 1487.42 Hz Gain -7.54 dB Q 1.081
+Filter 7: ON PK Fc 2815.58 Hz Gain 3.55 dB Q 0.260
+Filter 8: ON PK Fc 8035.74 Hz Gain -15.80 dB Q 1.825
+Filter 9: ON PK Fc 11109.70 Hz Gain 5.09 dB Q 2.960
+Filter 10: ON PK Fc 16000.00 Hz Gain 7.40 dB Q 1.398
+```
 
 ### Headphone Target vs. Harman Target Deviation
 
