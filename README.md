@@ -172,10 +172,10 @@ This precise scaling is demonstrated below in the EQ optimization for the 7Hz Ze
 **7Hz Zero:2 to ISO 226:2023 EQ Profile**
 ```text
 Preamp: -7.2 dB
-Filter 1: ON PK Fc 31.82 Hz Gain -5.27 dB Q 0.423  # STATIC (pinned)
-Filter 2: ON PK Fc 89.79 Hz Gain -9.39 dB Q 0.272  # STATIC (pinned)
+Filter 1: ON PK Fc 31.82 Hz Gain -5.27 dB Q 0.423
+Filter 2: ON PK Fc 89.79 Hz Gain -9.39 dB Q 0.272
 Filter 3: ON PK Fc 935.12 Hz Gain 7.40 dB Q 0.960
-Filter 4: ON PK Fc 991.83 Hz Gain -6.31 dB Q 0.625  # STATIC (pinned)
+Filter 4: ON PK Fc 991.83 Hz Gain -6.31 dB Q 0.625
 Filter 5: ON PK Fc 999.09 Hz Gain 1.89 dB Q 5.000
 Filter 6: ON PK Fc 1487.42 Hz Gain -7.54 dB Q 1.081
 Filter 7: ON PK Fc 2815.58 Hz Gain 3.55 dB Q 0.260
