@@ -157,7 +157,7 @@ pip install numpy
 
 The target was derived purely from ISO 226:2023 and first principles. It was subsequently found to be compatible with GRAS measurement infrastructure, which was independently engineered to approximate average human ear canal acoustics. Users measuring on GRAS rigs can therefore expect a consistent measurement chain between their hardware and this target.
 
-Users on the B&K 5128 platform should be aware that its differing ear canal geometry may require accounting for platform-specific deviations, particularly at higher frequencies.
+Users on the B&K 5128 platform should be aware that its differing ear canal geometry may require accounting for platform-specific deviations, particularly at higher frequencies. Congratulations to everyone who bought the new standard so they could measure the wrong transfer function more accurately.
 
 ### IEM Compatibility
 
